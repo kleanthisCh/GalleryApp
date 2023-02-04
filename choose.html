@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/choose.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Roboto+Slab:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <title>Choose</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <input class="side-menu" type="checkbox" id="side-menu">
+      <label class="hamb" for="side-menu">
+        <span class="hamb-line"></span>
+      </label>
+      <div class="img-gallery"></div>
+      <a class="img-avatar" href="my-account.html"></a>
+    </header>
+
+    <main>
+      <div class="choice-text">Your choice</div>
+      <div class="choice-frame">
+        <div class="choice">
+          <img class="choice-img" src="img/artchoice.jpg" alt="art_image_choice">
+        </div>
+        <div class="choice-price">Total cost: 25 euro</div>
+      </div>
+
+      <div class="purchase-text">Purchase the Tour</div>
+      <div class="choices-frame">
+        <div class="cardnumber">
+          <div class="cardnumber-label"><label for="cardnumber">Card number</label></div>
+          <input type="text" class="cardnumber-text" id="cardnumber" name="cardnumber" >
+        </div>
+        <div class="expiration">
+          <div class="expiration-label"><label for="expiration">Expiration</label></div>
+          <input type="text" class="expiration-text" id="expiration" placeholder="_ _/_ _" maxlength="5"
+            pattern="^(0[1-9]|1[0-2])\/[0-9]{2}$">
+        </div>
+        <div class="cvv">
+          <div class="cvv-label"><label for="cvv">CVV</label></div>
+          <input type="text" class="cvv-text" id="cvv" name="cvv">
+        </div>
+        <div class="holder-name">
+          <div class="chname-label"><label for="chname">Card holder name</label></div>
+          <input type="text" class="chname-text" id="chname" name="chname">
+        </div>
+
+        <a href="verify.html"><button class="ok-button">OK</button></a>
+      </div>
+           
+      <a class="edit" href="schedule.html"><button class="edit-tour">Edit tour</button></a>
+  </main>
+  </div>
+</body>
+
+</html>

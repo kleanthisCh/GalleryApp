@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/my-account.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Roboto+Slab:wght@200;300;400;500&family=Roboto:wght@300;400;500&display=swap"
+    rel="stylesheet">
+  <title>Choose</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <input class="side-menu" type="checkbox" id="side-menu">
+      <label class="hamb" for="side-menu">
+        <span class="hamb-line"></span>
+      </label>
+      <div class="img-gallery"></div>
+      <a class="img-avatar" href="my-account.html"></a>
+    </header>
+
+    <main>
+      <div class="sign-text">PLease sign up!</div>
+      <div class="account-frame">
+        <div class="name">
+          <div class="name-label"><label for="name">Full name</label></div>
+          <input type="text" class="name-text" id="name" name="name">
+        </div>
+        <div class="date">
+          <div class="date-label"><label for="date">Expiration</label></div>
+          <input type="text" class="date-text" id="date" placeholder="_ _/_ _/_ _ _ _" maxlength="10"
+            pattern="^([0-2][1-9]|3[01])\/(0[1-9]|1[0-2])\/[0-9]{2}$">
+        </div>
+        <div class="country">
+          <div class="country-label"><label for="country">Country</label></div>
+          <select class="country-select" name="country" id="country"></select>
+        </div>
+        <div class="city">
+          <div class="city-label"><label for="city">City</label></div>
+          <select class="city-select" name="city" id="city"></select>
+        </div>
+        <div class="job">
+          <div class="job-label"><label for="job">Job title</label></div>
+          <select class="job-select" name="job" id="job"></select>
+        </div>
+      </div>
+      <div class="newsletter">
+        <div class="newsletter-text">I want to receive your newsletter</div>
+        <div class="newsletter-check">
+          <input type="checkbox" name="check" id="check" >
+        </div>
+      </div>
+     <a class ="sign-link" href="main-screen.html"> <button class="sign">Sign up</button></a>
+  </div>
+
+  </main>
+  </div>
+</body>
+
+</html>

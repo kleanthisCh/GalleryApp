@@ -1,0 +1,192 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.choice-text {
+  font-size: 3vh;
+  /*1.4rem;*/
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+
+.choice-frame {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 10px 5px #888888;
+  width: 40vh;
+  height: 30vh;
+  align-items: center;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.choice {
+  width: 20vh;
+  height: 20vh;
+}
+
+.choice-img {
+  width: 20vh;
+  height: 20vh;
+}
+
+.choice-price {
+  font-size: 3vh;
+  /*1.4rem;*/
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1vh;
+}
+
+.purchase-text {
+  font-size: 3vh;
+  /*1.4rem;*/
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+}
+
+.choices-frame {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 10px 5px #888888;
+  width: 40vh;
+  height: 35vh;
+  align-items: center;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+.cardnumber {
+  font-size: 2.3vh;
+  font-weight: 500;
+  width: 36vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardnumber-label {
+  font-size: 2vh;
+  font-weight: 700;
+  width: 12vh;
+}
+
+.cardnumber-text {
+  width: 23vh;
+  height: 3vh;
+  background-color: #EBEAEA;
+}
+
+.expiration {
+  font-size: 2.3vh;
+  font-weight: 500;
+  width: 36vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.expiration-label {
+  font-size: 2vh;
+  font-weight: 700;
+  width: 12vh;
+}
+
+.expiration-text {
+  width: 23vh;
+  height: 3vh;
+  background-color: #EBEAEA;
+  color: var(--purple);
+  font-weight: 700;
+}
+::placeholder {
+  text-align: center;
+}
+
+
+.cvv {
+  font-size: 2.3vh;
+  font-weight: 500;
+  width: 36vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cvv-label {
+  font-size: 2vh;
+  font-weight: 700;
+  width: 12vh;
+}
+
+.cvv-text {
+  width: 23vh;
+  height: 3vh;
+  background-color: #EBEAEA;
+}
+
+.holder-name {
+  font-size: 2.3vh;
+  font-weight: 500;
+  width: 36vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.chname-label {
+  font-size: 2vh;
+  font-weight: 700;
+  width: 12vh;
+}
+
+.chname-text {
+  width: 23vh;
+  height: 3vh;
+  background-color: #EBEAEA;
+}
+
+
+.ok-button {
+  font-size: 2.6vh;
+  font-weight: 500;
+  background-color: var(--blue);
+  color: white;
+  width: 30vh;
+  height: 3.5vh;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+  align-items: center;
+  align-content: center;
+}
+
+.edit{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edit-tour {
+  font-size: 2.6vh;
+  font-weight: 500;
+  background-color: var(--orange);
+  color: white;
+  width: 30vh;
+  height: 3.5vh;
+  margin-top: 4vh;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
